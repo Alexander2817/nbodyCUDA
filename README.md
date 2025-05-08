@@ -10,3 +10,9 @@ Compile using `nvcc`:
 
 ```bash
 nvcc -O3 -arch=sm_61 -o nbody_cuda nbody_cuda.cu
+```
+
+## Script
+
+Use the provided script and change up the values in steps, particles, or even the CUDA block size.
+
