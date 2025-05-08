@@ -6,7 +6,7 @@ This project simulates gravitational interactions between particles using an bru
 
 ## Compilation
 
-Compile using javac *.java in your command prompt or terminal
+Compile using nvcc:
 
 ```bash
 nvcc -O3 -arch=sm_61 -o nbody_cuda nbody_cuda.cu
