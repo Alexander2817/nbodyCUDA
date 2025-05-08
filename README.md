@@ -1,6 +1,6 @@
 # CUDA N-Body Simulation
 
-This project simulates gravitational interactions between particles using an \( O(N^2) \) brute-force method implemented in CUDA C++. The code runs efficiently on GPU-accelerated systems such as Centaurus, supporting benchmarks with up to 100,000 particles.
+This project simulates gravitational interactions between particles using an brute-force method implemented in CUDA C++. The code runs efficiently on GPU-accelerated systems such as Centaurus, supporting benchmarks of different ranges such as 1000, 10000, and 100000 particles.
 
 ---
 
